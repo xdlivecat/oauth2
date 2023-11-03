@@ -9,11 +9,3 @@
     "openid-client": "^5.5.0"
   },
   "type": "module"
-
-  "name": "api-make",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
