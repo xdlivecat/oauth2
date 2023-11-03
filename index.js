@@ -47,7 +47,7 @@ async function main() {
     const client = new issuer.Client({
         client_id: clientId,
         client_secret: clientSecret,
-        redirect_uris: [`https://directretailsolutions.tech/oauth/callback`, 'https://oauth2-alpha.vercel.app/oauth/callback'],
+        redirect_uris: [`https://directretailsolutions.tech/oauth/callback`],
         response_types: ["code"],
         scope: "openid profile",
         id_token_signed_response_alg: "ES256",
