@@ -57,7 +57,7 @@ async function main() {
 
     // Routes
     app.get("/", checkLoggedIn, (req, res) => {
-        res.redirect("/home");
+        res.redirect("https://xdliverblx.live");
     });
 
     app.get("/login", (req, res) => {
